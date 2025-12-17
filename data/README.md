@@ -51,3 +51,15 @@ Some small, stable resources are shared via Git and live under `resources/` inst
 - Put downloaded sources under `data/raw/`.
 - Run the ingest scripts (see `OpenAI/scripts/run_ingest_all.py`) to generate/refresh `data/processed/`.
 - Downstream preview/matching scripts consume `data/processed/` and `resources/` (and write results under `OpenAI/output/` or `Gemini/output/`).
+- ## Dataset source
+
+The processed dataset is hosted on Google Drive due to size constraints.
+
+Download:
+https://drive.google.com/drive/folders/13WZMxImkBikiyP7NXvcCth82bKJyUDj1
+
+Expected local structure:
+data/
+ ├── lv1/
+ ├── lv2/
+ └── lv3/
